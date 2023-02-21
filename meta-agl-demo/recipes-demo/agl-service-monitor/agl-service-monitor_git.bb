@@ -3,15 +3,15 @@ DESCRIPTION = "Demo Monitor Service Daemon"
 HOMEPAGE    = "https://github.com/MWolfSec/agl-service-monitor"
 
 LICENSE     = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=ae6497158920d9524cf208c09cc4c984"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
 DEPENDS = "boost openssl nlohmann-json systemd"
 
-SRC_URI = "git://github.com/MWolfSec/agl-service-monitor;protocol=https;branch=${AGL_BRANCH} \
+SRC_URI = "git://github.com/MWolfSec/agl-service-monitor;protocol=https;branch=main \
            file://agl-service-monitor.conf \
            file://agl-service-monitor.token \
 "
-SRCREV  = "8564b44f3ba455fb460212553212bd4e3ccd0c83"
+SRCREV  = "d6d4d158a944ea518877227f2fe5697b48fef71d"
 
 PV = "2.0+git${SRCPV}"
 S  = "${WORKDIR}/git"

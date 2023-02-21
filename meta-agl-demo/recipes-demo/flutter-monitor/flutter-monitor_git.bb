@@ -8,14 +8,14 @@ BUGTRACKER = "https://github.com/MWolfSec/agl-flutter-monitor/issues"
 SECTION = "graphics"
 
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://License.md;md5=f712ede8d4f845976061925d1416fc40"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
 
-SRC_URI = "git://github.com/MWolfSec/agl-flutter-monitor;protocol=https;branch=${AGL_BRANCH} \
+SRC_URI = "git://github.com/MWolfSec/agl-flutter-monitor;protocol=https;branch=main \
     file://MONITOR_config.yaml \
     "
 
-SRCREV = "b5ae61f6229ac92fe4c69e68d4af330f055150ec"
+SRCREV = "ace3d4817e8133d4716eb5e7f070970b40bb30ee"
 S = "${WORKDIR}/git"
 
 inherit agl-app flutter-app
