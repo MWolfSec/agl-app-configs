@@ -11,7 +11,7 @@ SRC_URI = "git://github.com/MWolfSec/agl-service-monitor;protocol=https;branch=m
            file://agl-service-monitor.conf \
            file://agl-service-monitor.token \
 "
-SRCREV  = "d6d4d158a944ea518877227f2fe5697b48fef71d"
+SRCREV  = "8ed3ad06d169b49d5c441b7548444c820ab6f30e"
 
 PV = "2.0+git${SRCPV}"
 S  = "${WORKDIR}/git"

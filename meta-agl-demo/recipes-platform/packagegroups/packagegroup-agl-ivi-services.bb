@@ -15,5 +15,5 @@ RDEPENDS:${PN} += "\
     agl-service-hvac \
     agl-service-audiomixer \
     agl-service-radio \
-    agl-service-monitor \ 
+    agl-service-monitor \
     "

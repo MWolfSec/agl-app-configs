@@ -15,7 +15,7 @@ SRC_URI = "git://github.com/MWolfSec/agl-flutter-monitor;protocol=https;branch=m
     file://MONITOR_config.yaml \
     "
 
-SRCREV = "0f912625f4f2484a27f8b65b99ff74d392e3763f"
+SRCREV = "b959d015eb162e8ccb7ea27e256e87c808e0c224"
 S = "${WORKDIR}/git"
 
 inherit agl-app flutter-app
